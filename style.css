@@ -1,0 +1,24 @@
+.top-bar p {
+    float: right;
+}
+
+.top-bar p a {
+    float: left;
+}
+
+.outer-container {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    flex-direction: row;
+}
+
+.inner-container {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    flex-direction: column;
+    justify-content: center;
+}

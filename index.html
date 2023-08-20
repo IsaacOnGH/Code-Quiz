@@ -8,17 +8,14 @@
     <title>Code-Quiz</title>
 </head>
 <body>
-    <div id="outer-container">
-    <div class="top-bar">
-        <a>View Highscores</a>
-        <p>Time: 0</p>
-    </div>
     <div class="quiz-container">
         <h1>Code Quiz</h1>
-        <button id="start-buttonn">Start Quiz</button>
+        <div id="timer">Time: <span id="time-left">60</span></div>
+        <button id="start-button">Start Quiz</button>
         <div id="question-container"></div>
-        <div id="result-container"></div>"        
+        <div id="result-container"></div>   
+        <button id="view-highscores">View Highscores</a>     
     </div>  
-    <script src="./script.js"></script>
+    <script type ="module" src="./script.js"></script>
 </body>
 </html>
